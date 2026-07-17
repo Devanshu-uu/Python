@@ -1,4 +1,5 @@
 marks=[32,324,342,5,4,312,78]
+print(len(marks))
 
 print(marks)
 print(type(marks))
