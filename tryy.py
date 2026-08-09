@@ -5,6 +5,10 @@ students= [{'roll': 101, 'name': 'Rahul', 'age': 20, 'course': 'Python', 'marks'
 {'roll': 105, 'name': 'Rohan', 'age': 20, 'course': 'Python', 'marks': 67}]
 
 
-
+count=0
 for student in students:
-    print(student["name"])
+    if (student[marks])>=40:
+        count+=1
+
+
+print(count)
