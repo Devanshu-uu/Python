@@ -9,5 +9,19 @@ students= [{'roll': 101, 'name': 'Rahul', 'age': 20, 'course': 'Python', 'marks'
 
 
         
+class Student:
+    def __init__(self,roll,name,age,course,marks):
+        self.roll=roll
+        self.name=name
+        self.age=age
+        self.course=course
+        self.marks=marks
 
+    def show(self):
+        print(self.roll,self.name,self.age,self.course,self.marks)
+
+
+s1=Student(106 ,"Dev",21,"Code",100)
+
+s1.show()
 
