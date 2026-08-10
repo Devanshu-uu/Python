@@ -5,17 +5,14 @@ students= [{'roll': 101, 'name': 'Rahul', 'age': 20, 'course': 'Python', 'marks'
 {'roll': 105, 'name': 'Rohan', 'age': 20, 'course': 'Python', 'marks': 67}]
 
 
-count=0
-for student in students:
-    if (student["marks"])>=90:
-        print(f'{student["name"] } Grade is A')
-    elif (student["marks"])>=75:
-        print(f'{student["name"] } Grade is B')
-    elif (student["marks"])>=60:
-        print(f'{student["name"] } Grade is C')
-    else:
-        print(f'{student["name"] } Grade is D')
 
+mx=0
+for student in students:
+    if(mx<student["marks"]):
+        mx=student["marks"]
+        name=student
+
+print(name)
 
 
         
