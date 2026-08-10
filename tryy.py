@@ -6,13 +6,14 @@ students= [{'roll': 101, 'name': 'Rahul', 'age': 20, 'course': 'Python', 'marks'
 
 
 
-mx=0
+courses={}
 for student in students:
-    if(mx<student["marks"]):
-        mx=student["marks"]
-        name=student
+    if (student["course"] in courses):
+        courses[student["course"]]+=1
+    else:
+        courses[student["course"]]=1
 
-print(name)
+print(courses)
 
 
         
