@@ -6,12 +6,11 @@ students= [{'roll': 101, 'name': 'Rahul', 'age': 20, 'course': 'Python', 'marks'
 
 
 
-courses={}
+courses=[]
 for student in students:
-    if (student["course"] in courses):
-        courses[student["course"]]+=1
-    else:
-        courses[student["course"]]=1
+    if (student["course"] not in courses):
+        courses.append(student["course"])
+
 
 print(courses)
 
