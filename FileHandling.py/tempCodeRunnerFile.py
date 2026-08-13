@@ -1,5 +1,2 @@
- open("sample.txt","a")
-
-# file.write("Gulshan")
-
-# file.close()
+") as file:
+#     file.write("Hi Buddy\n")
