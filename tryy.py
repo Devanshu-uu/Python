@@ -24,4 +24,3 @@ class Student:
 s1=Student(106 ,"Dev",21,"Code",100)
 
 s1.show()
-
