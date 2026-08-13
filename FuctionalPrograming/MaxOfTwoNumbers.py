@@ -10,5 +10,5 @@
 
 greatest=lambda a,b : a if a>b else b
 
-print(greatest(2,4))
+print(greatest(2,40))
 
