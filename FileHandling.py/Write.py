@@ -1,0 +1,5 @@
+file=open("sample.txt","w")
+file.write("Suraj\n")
+file.write("Shiva\n")
+file.write("Devanshu\n")
+file.close()
